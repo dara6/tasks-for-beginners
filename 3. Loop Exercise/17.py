@@ -1,4 +1,4 @@
-n = 5
+n = int(input("Enter a quantity of number: "))
 num = 2
 res = 0
 for i in range(n):
