@@ -6,6 +6,7 @@ def make_dict(list):
         else:
             list_dict[l] = 1
     print(list_dict)
+    return ''
 
 
 sample_list = [11, 45, 8, 11, 23, 45, 23, 45, 89]
