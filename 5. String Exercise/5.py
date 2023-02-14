@@ -11,4 +11,6 @@ for ch in str1:
     else:
         k_s += 1
 
-print(f'Total counts of chars, digits, and symbols\nChars = {k_ch}\nDigits = {k_d}\nSymbol = {k_s}')
+print(
+    f"Total counts of chars, digits, and symbols\nChars = {k_ch}\nDigits = {k_d}\nSymbol = {k_s}"
+)

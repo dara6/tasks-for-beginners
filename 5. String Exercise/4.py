@@ -1,4 +1,4 @@
-str = 'PYnAtivE'
+str = "PYnAtivE"
 list1 = []
 list2 = []
 for ch in str:
@@ -7,5 +7,5 @@ for ch in str:
     else:
         list2.append(ch)
 
-new_str = ''.join(list1 + list2)
+new_str = "".join(list1 + list2)
 print(new_str)

@@ -1,10 +1,8 @@
 def count_same_symbols(str):
     ch_dict = dict()
     for ch in str:
-        count = str.count(ch)
-        ch_dict[ch] = count
-    print(f'Result is: {ch_dict}')
-    return ''
+        ch_dict[ch] = ch_dict.get(ch, 0) + 1
+    return ch_dict
 
 
 str1 = "Apple"
