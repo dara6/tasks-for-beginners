@@ -1,13 +1,11 @@
-def generate():
-    for i in range(4, 31):
-        a = []
+def generate(start, end):
+    a = []
+    for i in range(start, end + 1):
         if i % 2 != 0:
             continue
-
         else:
             a.append(i)
-
     return a
-print(generate())
 
 
+print(generate(4, 30))

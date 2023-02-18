@@ -6,4 +6,4 @@ def find_substr(s1, s2):
 
 str1 = "Welcome to USA. usa awesome, isn't it?"
 str2 = "USA"
-print('The USA count is:', find_substr(str1, str2))
+print("The USA count is:", find_substr(str1, str2))

@@ -1,7 +1,5 @@
 def find_last(s1, s2):
-    for i in range(len(s1) - 1):
-        if s1[i] == s2[0]:
-            index = i
+    index = s1.rfind(s2)
     return index
 
 

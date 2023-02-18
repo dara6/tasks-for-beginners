@@ -17,4 +17,3 @@ s1 = "Ynf"
 s2 = "PYnative"
 flag = str_is_balanced(s1, s2)
 print("s1 and s2 are balanced:", flag)
-

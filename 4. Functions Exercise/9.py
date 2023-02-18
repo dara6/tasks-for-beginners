@@ -1,8 +1,9 @@
-x = [4, 6, 8, 24, 12, 2]
 def find_largest(x):
-    for i in range(0, len(x) - 1):
-        if x[i + 1] > x[i]:
-            res = x[i + 1]
-    print(res)
+    res = x[0]
+    for i in range(1, len(x)):
+        if x[i] > res:
+            res = x[i]
+    return res
 
-find_largest(x)
+x = [1, 10, 2, 3]
+print(find_largest(x))

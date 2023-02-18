@@ -1,7 +1,5 @@
-def reverse(str):
-    for i in range(len(str) - 1, 0, -1):
-        print(str[i], end='')
-    return ''
+def reverse(string):
+    return string[::-1]
 
 
 str1 = "PYnative"
